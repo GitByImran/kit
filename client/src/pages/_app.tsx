@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <div className="body-width">
         <Component {...pageProps} />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

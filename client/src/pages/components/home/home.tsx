@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./contents/banner";
 import About from "./contents/about";
 import WhyKit from "./contents/whyKit";
+import Categories from "./contents/categories";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Banner />
       <About />
       <WhyKit />
+      <Categories />
     </div>
   );
 };

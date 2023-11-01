@@ -19,10 +19,9 @@ const Navbar = () => {
             </div>
             <div className="flex items-center gap-5">
               <Search />
-              {/* todo : hide if not need */}
-              <h2 className="text-lg capitalize font-semibold text-gray-700 flex">
-                Learn | Teach
-              </h2>
+              <button className="text-lg capitalize font-semibold text-gray-700 hover:text-gray-900">
+                Login
+              </button>
             </div>
           </nav>
         </div>

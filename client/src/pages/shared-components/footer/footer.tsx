@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Logo from "../logo";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <div className="border-t py-10">
       <div className="body-width text-gray-700">

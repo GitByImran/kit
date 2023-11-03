@@ -3,7 +3,7 @@ import { MdGroups2 } from "react-icons/md";
 import React from "react";
 import { BsQuestionCircleFill } from "react-icons/bs";
 
-const WhyKit = () => {
+const WhyKit: React.FC = () => {
   return (
     <div>
       <div className="flex justify-center">

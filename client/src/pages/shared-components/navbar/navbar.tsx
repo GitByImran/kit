@@ -1,13 +1,19 @@
+import { BsChevronDown } from "react-icons/bs";
 import React from "react";
 import Logo from "../logo";
 import Navmenu from "./navmenu";
 import Search from "./search";
 import Home from "@/pages/components/home/home";
 import { useRouter } from "next/router";
+import Link from "next/link";
+import Image from "next/image";
+import { MdWidthFull } from "react-icons/md";
+import { UseAuthContext } from "@/pages/authentication/auth-provider";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const router = useRouter();
-  console.log(router.pathname);
+  const { currentUser } = UseAuthContext();
+  console.log(currentUser);
   return (
     <div>
       <div className="shadow">
@@ -19,9 +25,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center gap-5">
               <Search />
-              <button className="text-lg capitalize font-semibold text-gray-700 hover:text-gray-900">
-                Login
-              </button>
+              {}
             </div>
           </nav>
         </div>

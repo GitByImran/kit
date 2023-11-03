@@ -15,7 +15,7 @@ const information = [
   "& Many More",
 ];
 
-const Categories = () => {
+const Categories: React.FC = () => {
   return (
     <div>
       <div className="flex justify-center">

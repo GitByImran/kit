@@ -1,7 +1,7 @@
 import { BiSearch } from "react-icons/bi";
 import React from "react";
 
-const Search = () => {
+const Search: React.FC = () => {
   return (
     <div>
       <div>

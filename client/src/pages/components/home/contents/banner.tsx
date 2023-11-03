@@ -1,6 +1,7 @@
+import Link from "next/link";
 import React from "react";
 
-const Banner = () => {
+const Banner: React.FC = () => {
   return (
     <div className="w-full h-96">
       <div className="w-full h-full flex flex-col items-center justify-center">
@@ -19,12 +20,12 @@ const Banner = () => {
               className="w-full h-full outline-none text-lg px-5"
               placeholder="enter your email address..."
             />
-            <label
-              htmlFor="subscribe"
-              className="text-lg text-white font-normal px-5 py-4"
+            <Link
+              href=""
+              className="text-lg text-white font-normal px-5 py-4 cursor-pointer"
             >
-              Subscribe
-            </label>
+              <label htmlFor="subscribe">Subscribe</label>
+            </Link>
           </form>
         </div>
       </div>

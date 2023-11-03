@@ -10,7 +10,7 @@ const menus = [
   { label: "contact us", goto: "" },
 ];
 
-const Navmenu = () => {
+const Navmenu: React.FC = () => {
   return (
     <div>
       <div className="flex items-center gap-5">

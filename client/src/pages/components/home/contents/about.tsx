@@ -29,7 +29,7 @@ const information = [
   },
 ];
 
-const About = () => {
+const About: React.FC = () => {
   return (
     <div>
       <div className="flex justify-center">

@@ -4,7 +4,7 @@ import About from "./contents/about";
 import WhyKit from "./contents/whyKit";
 import Categories from "./contents/categories";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <div>
       <Banner />

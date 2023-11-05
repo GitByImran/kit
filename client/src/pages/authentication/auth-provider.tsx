@@ -106,7 +106,7 @@ const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const handleSignOut = () => {
     signOut(auth)
       .then(() => {
-        setUser(null);
+        setCurrentUser(undefined);
         console.log("Sign-out successful");
       })
       .catch((error) => {

@@ -26,17 +26,17 @@ const Categories: React.FC = () => {
           </span>
         </h2>
       </div>
-      <div className="grid grid-cols-12 gap-5 my-20">
+      <div className="flex gap-5 my-20 flex-wrap justify-center">
         {information.map((info, index) => (
           <div
             key={index}
-            className="col-span-3 border rounded-lg overflow-hidden p-5 text-gray-700"
+            className="border rounded-lg overflow-hidden p-5 text-gray-700 flex items-center"
           >
-            <div className="flex flex-col gap-2">
-              <p className="text-3xl w-fit">
+            <div className="flex gap-2">
+              <p className="text-xl w-fit mt-0.5">
                 <BsCheck2Circle />
               </p>
-              <h2 className="text-xl font-semibold">{info}</h2>
+              <h2 className="font-semibold">{info}</h2>
             </div>
           </div>
         ))}

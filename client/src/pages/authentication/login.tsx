@@ -75,7 +75,7 @@ const Login: React.FC = () => {
             </label>
             <input
               type="text"
-              className="border outline-gray-500 px-3 py-2 w-96"
+              className="border outline-gray-500 px-3 py-2 w-full sm:w-96"
               placeholder="enter email address"
               name="email"
               onChange={handleInputChange}
@@ -87,7 +87,7 @@ const Login: React.FC = () => {
             </label>
             <input
               type={showPassword ? "text" : "password"}
-              className="border outline-gray-500 px-3 py-2 w-96"
+              className="border outline-gray-500 px-3 py-2 w-full sm:w-96"
               placeholder="enter password"
               name="password"
               onChange={handleInputChange}
